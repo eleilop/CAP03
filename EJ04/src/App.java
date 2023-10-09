@@ -8,9 +8,9 @@ public class App {
         System.out.print("Introduce el segundo número: ");
         double num2 = sc.nextDouble();
         sc.close();
-        System.out.println("La suma de "+num1+" + "+num2+" = "+(num1+num2));
-        System.out.println("La resta de "+num1+" - "+num2+" = "+(num1-num2));
-        System.out.println("La multiplicación de "+num1+" * "+num2+" = "+(num1*num2));
-        System.out.println("La división de "+num1+" / "+num2+" = "+(num1/num2));
+        System.out.printf("La suma de %.1f + %.1f = "+(num1+num2)+"%n", num1, num2);
+        System.out.printf("La resta de %.1f - %.1f = "+(num1-num2)+"%n", num1, num2);
+        System.out.printf("La multiplicación de %.1f * %.1f = "+(num1*num2)+"%n", num1, num2);
+        System.out.printf("La división de %.1f / %.1f = "+(num1/num2)+"%n", num1, num2);
     }
 }

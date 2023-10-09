@@ -10,6 +10,6 @@ public class App {
         float trimestre = sc.nextFloat();
         sc.close();
         float examen2 = 100*(trimestre-examen1)/60;
-        System.out.println("Para tener un "+trimestre+" en el trimestre necesitas sacar un "+examen2+" en el segundo examen");
+        System.out.printf("Para tener un %.2f en el trimestre necesitas sacar un %.2f en el segundo examen", trimestre, examen2);
     }
 }

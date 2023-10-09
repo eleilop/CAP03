@@ -7,6 +7,6 @@ public class App {
         double base = sc.nextDouble();
         sc.close();
         double total = 121*base/100;
-        System.out.println("El total (base+IVA) es de "+total+" euros");
+        System.out.printf("El total (base+IVA) es de %.2f euros", total);
     }
 }

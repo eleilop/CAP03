@@ -9,6 +9,6 @@ public class App {
         double altura = sc.nextDouble();
         sc.close();
         double area = base*altura;
-        System.out.println("El área de un rectángulo de base "+base+" y altura "+altura+" es "+area);
+        System.out.printf("El área de un rectángulo de base %.2f y altura %.2f es %.2f", base, altura, area);
     }
 }

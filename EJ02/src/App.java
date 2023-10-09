@@ -7,6 +7,6 @@ public class App {
         double euros = sc.nextDouble();
         sc.close();
         double pesetas = euros*166.386;
-        System.out.println(euros+" euros son "+pesetas+" pesetas");
+        System.out.printf("%.2f euros son %d pesetas", euros, (int)Math.round(pesetas));
     }
 }

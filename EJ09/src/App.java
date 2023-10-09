@@ -9,6 +9,6 @@ public class App {
         double altura = sc.nextDouble();
         sc.close();
         double volumen = (3.141592653689793*(radio*radio)*altura)/3;
-        System.out.println("El volumen de un cono de radio "+radio+" y altura "+altura+" es "+volumen);
+        System.out.printf("El volumen de un cono de radio %.2f y altura %.2f es %.2f", radio, altura, volumen);
     }
 }
